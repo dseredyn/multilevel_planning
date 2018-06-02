@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<world>
+    <segment a="50 50" b="50 550" width="5" friction="1" static="true" />
+    <segment a="50 550" b="650 550" width="5" friction="1" static="true" />
+    <segment a="650 550" b="650 50" width="5" friction="1" static="true" />
+    <segment a="50 50" b="650 50" width="5" friction="1" static="true" />
+
+    <segment a="300 300" b="330 300" width="5" friction="1" static="true" />
+    <segment a="330 300" b="330 330" width="5" friction="1" static="true" />
+    <segment a="330 330" b="300 330" width="5" friction="1" static="true" />
+    <segment a="300 330" b="300 300" width="5" friction="1" static="true" />
+
+    <box name="box" dim="50 10" position="200 200" angle="0.0" static="false" damping="300 3000" />
+    <robot position="100 100" angle ="0.0" />
+</world>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<world>
+    <segment a="50 50" b="50 550" width="5" friction="1" static="true" />
+    <segment a="50 550" b="650 550" width="5" friction="1" static="true" />
+    <segment a="650 550" b="650 50" width="5" friction="1" static="true" />
+    <segment a="50 50" b="650 50" width="5" friction="1" static="true" />
+<!--    <segment a="190 210" b="190 450" width="5" friction="1" static="true" />
+    <segment a="250 345" b="250 550" width="5" friction="1" static="true" />
+    <segment a="250 150" b="250 285" width="5" friction="1" static="true" />
+    <segment a="250 350" b="350 350" width="5" friction="1" static="true" />
+    <segment a="250 285" b="350 285" width="5" friction="1" static="true" />
+    <segment a="150 150" b="250 150" width="5" friction="1" static="true" />-->
+    <box name="box2" dim="25 25" position="350 425" angle="0.0" static="false" damping="300 3000" />
+    <box name="box2" dim="25 25" position="350 390" angle="0.0" static="false" damping="300 3000" />
+    <box name="box2" dim="25 25" position="350 355" angle="0.0" static="false" damping="300 3000" />
+    <box name="box2" dim="25 25" position="350 320" angle="0.0" static="false" damping="300 3000" />
+    <box name="box2" dim="25 25" position="350 285" angle="0.0" static="false" damping="300 3000" />
+    <box name="box8" dim="25 25" position="350 250" angle="0.0" static="false" damping="300 3000" />
+    <box name="box7" dim="25 25" position="350 215" angle="0.0" static="false" damping="300 3000" />
+    <box name="box2" dim="25 25" position="350 180" angle="0.0" static="false" damping="300 3000" />
+    <box name="box3" dim="25 25" position="350 145" angle="0.0" static="false" damping="300 3000" />
+    <box name="box4" dim="25 25" position="350 110" angle="0.0" static="false" damping="300 3000" />
+    <box name="box5" dim="25 25" position="350 75" angle="0.0" static="false" damping="300 3000" />
+
+    <robot position="220 225" angle="0.0" />
+</world>
+

@@ -1,0 +1,26 @@
+<package>
+  <name>multilevel_planning</name>
+  <version>1.0.0</version>
+  <description>
+    TODO
+  </description>
+  <author email="dawid.seredynski@gmail.com">Dawid Seredynski</author>
+  <maintainer email="dawid.seredynski@gmail.com">Dawid Seredynski</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>opencv3</build_depend>
+  <build_depend>planer_utils</build_depend>
+  <build_depend>libqhull</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>opencv3</run_depend>
+  <run_depend>planer_utils</run_depend>
+  <run_depend>libqhull</run_depend>
+
+</package>
